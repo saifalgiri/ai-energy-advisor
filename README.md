@@ -131,7 +131,7 @@ PostgreSQL
 # 🚀 Installation
 
 ```1. Clone Repository
-git clone https://github.com/saifalgiri/thermondo.git
+git clone https://github.com/saifalgiri/thermondo-repo.git
 cd thermondo
 
 2. Backend Setup
