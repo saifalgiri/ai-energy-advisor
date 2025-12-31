@@ -1,0 +1,60 @@
+import { Recommendation } from '../types/home'
+
+export const MOCK_RECOMMENDATIONS: Recommendation[] = [
+  {
+    title: 'Upgrade to a Smart Thermostat',
+    description: 'Installing a programmable smart thermostat can automatically adjust temperatures based on your schedule and preferences, reducing heating costs significantly. Modern smart thermostats learn your habits and optimize energy usage.',
+    estimated_cost: '$150 - $300',
+    estimated_savings: '$150 - $200/year',
+    priority: 'high',
+    category: 'heating',
+  },
+  {
+    title: 'Add Attic Insulation',
+    description: 'Based on your home age and current insulation level, adding more insulation to your attic could prevent significant heat loss. This is one of the most cost-effective improvements for older homes.',
+    estimated_cost: '$1,500 - $3,000',
+    estimated_savings: '$300 - $500/year',
+    priority: 'high',
+    category: 'insulation',
+  },
+  {
+    title: 'Seal Air Leaks Around Windows',
+    description: 'Your double-pane windows are good, but weatherstripping and caulking around frames can eliminate drafts. Check for gaps around window frames and apply weatherstripping where needed.',
+    estimated_cost: '$50 - $150',
+    estimated_savings: '$100 - $150/year',
+    priority: 'medium',
+    category: 'windows',
+  },
+  {
+    title: 'Switch to LED Lighting',
+    description: 'Replace all incandescent and CFL bulbs with LED alternatives. LEDs use 75% less energy and last 25 times longer than incandescent bulbs, providing immediate savings.',
+    estimated_cost: '$100 - $200',
+    estimated_savings: '$75 - $100/year',
+    priority: 'medium',
+    category: 'appliances',
+  },
+  {
+    title: 'Install a Heat Pump Water Heater',
+    description: 'Heat pump water heaters are 2-3 times more efficient than conventional electric water heaters. They work by moving heat rather than generating it, significantly reducing energy consumption.',
+    estimated_cost: '$1,800 - $3,500',
+    estimated_savings: '$300 - $400/year',
+    priority: 'medium',
+    category: 'heating',
+  },
+  {
+    title: 'Adopt Energy-Saving Habits',
+    description: 'Simple behavioral changes can reduce energy use: lower thermostat by 2°F when sleeping, unplug devices when not in use, and run full loads in dishwasher and washing machine.',
+    estimated_cost: '$0',
+    estimated_savings: '$50 - $100/year',
+    priority: 'low',
+    category: 'habits',
+  },
+  {
+    title: 'Consider Solar Panel Installation',
+    description: 'Given your roof type, solar panels could be a viable long-term investment. With available tax credits and incentives, the payback period has shortened significantly in recent years.',
+    estimated_cost: '$15,000 - $25,000',
+    estimated_savings: '$1,200 - $1,800/year',
+    priority: 'low',
+    category: 'renewable',
+  },
+];
