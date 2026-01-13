@@ -131,8 +131,8 @@ PostgreSQL
 # 🚀 Installation
 
 ```1. Clone Repository
-git clone https://github.com/saifalgiri/thermondo-repo.git
-cd thermondo
+git clone https://github.com/saifalgiri/ai-energy-advisor.git
+cd ai-energy-advisor
 
 2. Backend Setup
 cd backend
